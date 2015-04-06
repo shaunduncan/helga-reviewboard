@@ -2,7 +2,7 @@ helga-reviewboard
 =================
 
 A helga plugin for expanding shortcodes for code reviews on ReviewBoard. This matches the pattern
-``cr(\d+)`` and requires configuring the setting ``REVIEWBOARD_URL``. For example::
+``\bcr(\d+)\b`` and requires configuring the setting ``REVIEWBOARD_URL``. For example::
 
     <sduncan> can someone look at cr1234
     <helga> sduncan might be talking about codereview: http://example.com/r/1234
